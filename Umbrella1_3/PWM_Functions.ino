@@ -1,21 +1,27 @@
 void pwmBlueOn()
 { 
-    int rate = 201;
+    for(int rate = 199; rate < 220; rate++)
+    {
     analogWrite(bluPWM, rate);         
+    }
 }
 
 
 void pwmGreenOn()
 
 {
-    int rate = 147;
+    for(int rate = 106; rate < 210; rate++)
+    {
     analogWrite(grnPWM, rate);         
+    }
     
 }
   void pwmRedOn()
 
 { 
-    int rate = 28; 
+    for(int rate = 72; rate < 125; rate++)
+    {
     analogWrite(redPWM, rate);            
+    }
 }
 
