@@ -5,13 +5,18 @@ int bluPWM = 5;
 int redPWM = 6;
 int grnPWM = 7;
 
-/*int spiralArrayRed[] = {0, 9, 17, 25, 33, 41, 49, 57};
+int spiralArrayRed[] = {0, 9, 17, 25, 33, 41, 49, 57};
 int spiralArrayBlue [] = {1, 10, 18, 25, 42, 50, 58};
 int spiralArrayGreen [] = {2, 11, 19, 26, 43, 51, 59};
 int spiralCountRed = 0;
-int spiralCountBlue = 0;
-int spiralCountGreen = 0;
-*/
+int spiralCountBlue = 1;
+int spiralCountGreen = 2;
+int circleArrayRed [] = {0,8,16,24,32,40,48,54,62};
+int circleArrayBlue [] = {1,9,17,25,33,41,49,57};
+int circleArrayGreen [] = {2,10,18,26,34,42,50};
+int circleArrayRed = 0;
+int circleArrayBlue = 1;
+int circleArrayGreen = 2;
 
 byte data = 0;
 
