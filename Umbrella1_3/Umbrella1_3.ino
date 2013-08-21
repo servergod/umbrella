@@ -52,6 +52,10 @@ pwmGreenOut(delayTime);
 void loop()
 {
   
+  pwmRedOn();
+  pwmBlueOn();
+  pwmGreenOn();
+  marquee();
   
 
 }
