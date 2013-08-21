@@ -20,6 +20,8 @@ void setup()
   pinMode(latchpin, OUTPUT);
 }
 
+// The below function makes handles the entire shift and latch procedure.
+
 void shiftWrite(int desiredPin, boolean desiredState)
 
 {

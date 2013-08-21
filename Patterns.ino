@@ -7,3 +7,17 @@ void spiral()
   
 }
 
+void checker()
+{
+  
+  
+}
+
+
+void circle()
+{
+  
+
+}
+
+
